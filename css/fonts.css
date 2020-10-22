@@ -1,0 +1,22 @@
+:root{
+	--firstFont: "Trebuchet MS";
+	--secondFont: "Exo";
+}
+@font-face {
+  font-family: "Exo";
+  src: url(./../fonts/exo/exo-thin.otf) format("opentype");
+  font-style: normal;
+  font-weight: 100;
+}
+@font-face {
+  font-family: "Trebuchet MS";
+  src: url(./../fonts/trebuchet-ms/trebuchet-ms.ttf) format('truetype');
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Trebuchet MS";
+  src: url(./../fonts/trebuchet-ms/trebuchet-ms-bold.ttf) format('truetype');
+  font-style: normal;
+  font-weight: 700;
+}

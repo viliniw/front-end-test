@@ -1,0 +1,46 @@
+:root{
+  --color-main: #000;
+  --color-text: #fff;
+  --color-link: #1698d9;
+  --color-link-active: #2ea8e5;
+  --fontSize: 16px; 
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body{
+  min-height: 100vh;
+  color: var(--color-text);
+  background-color: var(--color-main);
+  font-family: var(--firstFont) , Arial , sans-serif;
+  font-size: var(--fontSize);
+  display: flex;
+  flex-direction: column;
+}
+
+a,
+.a{
+  text-decoration: underline;
+  text-decoration-style: dashed;
+  color: var(--color-link);
+  cursor: pointer;
+  &:hover,
+  &:active{
+    color: var(--color-link-active);
+  }
+}
+
+.container{
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+@import "./class/page";
+@import "./class/pack";
